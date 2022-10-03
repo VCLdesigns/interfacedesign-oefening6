@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 37);
+}
+#container {
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto 5% auto;
+  
+ 
+}
+.boven {
+  background-color: wheat;
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+}
+.bovenblok1 {
+  background-color: salmon;
+  width: 38%;
+  min-height: 10vh;
+  margin: 1%;
+}
+.bovenblok2 {
+    background-color: lightgreen;
+    width: 58%;
+    margin: 1%;
+    min-height: 10vh;
+    display: flex;
+}
+.bovenblokje1{
+    width: 20%;
+    min-height: 10vh;
+    border-right: solid black 2px;
+
+}
+.bovenblokje2, .bovenblokje3, .bovenblokje4{
+    width: 20%;
+    min-height: 10vh;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+}
+.bovenblokje5{
+    width: 20%;
+    min-height: 10vh;
+    border-left: solid black 2px;
+
+}
+
+.midden{
+    /* width 100% = beschikbare plek. - margin (buiten) - padding (binnen)*/
+    width: 100%;
+    min-height: 80vh;
+    background-color: goldenrod;
+    display: flex;
+}
+.middenblok1{
+    width: 58%;
+    min-height: 80vh;
+    background-color: white;
+    margin: 1%;
+}
+.middenblokje1, .middenblokje2{
+    width: 98%;
+    min-height: 30vh;
+    background-color: rgb(37, 0, 37);
+    margin: 1%;
+}
+
+.middenblok2{
+    width: 38%;
+    min-height: 80vh;
+    background-color: lightseagreen;
+    margin: 1%;
+}
+
+.middenblokje3, .middenblokje4{
+    width: 98%;
+    min-height: 30vh;
+    display: flex;
+    margin: 1%;
+}
+
+.miniblokje{
+    background-color: wheat;
+    width: 31%;
+    min-height: 30vh;
+    margin: 1%;
+}
+
+.onder{
+    width: 100%;
+    min-height: 10vh;
+    background-color: salmon;
+}
